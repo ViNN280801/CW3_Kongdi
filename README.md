@@ -1,6 +1,6 @@
 # CW3_Kongdi
 
-<h2>Control work #2. 10 variant.</h2>
+<h2>Control work #3. 10 variant.</h2>
 
 <h3>Task 1. Dynamic memory allocation</h3>
     <p>
