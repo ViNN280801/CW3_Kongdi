@@ -55,7 +55,7 @@ int **alloc_mem_int_matrix(const size_t rows, const size_t cols)
         exit(-1);
     }
 
-    for (size_t row = 0UL; row < cols; row++)
+    for (size_t row = 0UL; row < rows; row++)
     {
         pp[row] = (int *)calloc(rows, sizeof(int));
 
