@@ -71,6 +71,7 @@ size_t filter(int *pint, const size_t psize, bool (*pred)(const int value), int 
             filtered_size++;
         }
     }
+    pint_filtered = (int *)realloc(pint_filtered, sizeof(int) * filtered_size);
 
     return filtered_size;
 }
